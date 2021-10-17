@@ -1,0 +1,57 @@
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #10112d;
+}
+.main-box {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.go {
+  text-align: center;
+}
+
+.btn-lg {
+  border-radius: 24px;
+}
+
+#start, #test, #retest {
+  display: none;
+}
+
+#retest {
+  height: 0;
+}
+
+#retest a {
+  margin-top: 35px;
+}
+
+.row.gauge {
+  overflow: hidden;
+}
+
+.test-results .col {
+  flex-basis: content;
+  text-align: center;
+}
+
+.test-results .down .label {
+  color: #80db78;
+}
+
+.test-results .up .label {
+  color: #55ecdb;
+}
+
+.result {
+  color: #fff;
+}
